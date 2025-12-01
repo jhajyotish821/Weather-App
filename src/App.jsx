@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaSearch } from "react-icons/fa";
 import { WiHumidity, WiStrongWind } from "react-icons/wi";
 import axios from 'axios';
-import './app.css'
+import './App.css'
 const App = () => {
   const API_KEY = "fbdb5bf8c2e9a74b53c0a56a860b8b7c";
   const [search, setSearch] = useState("");
